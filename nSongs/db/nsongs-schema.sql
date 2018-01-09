@@ -1,0 +1,47 @@
+BEGIN TRANSACTION;
+
+DROP TABLE IF EXISTS movie;
+DROP TABLE IF EXISTS song;
+DROP TABLE IF EXISTS singer;
+DROP TABLE IF EXISTS singer_song;
+DROP TABLE IF EXISTS feel;
+DROP TABLE IF EXISTS feel_song;
+DROP TABLE IF EXISTS ragam;
+DROP TABLE IF EXISTS composer;
+DROP TABLE IF EXISTS playlist;
+DROP TABLE IF EXISTS playlist_song;
+
+CREATE TABLE movie(
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	name TEXT NOT NULL,
+	release_year TINYINT NOT NULL,
+	poster blob,
+	is_active TINYINT NOT NULL DEFAULT 1
+);
+CREATE TABLE singer(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT NOT NULL,
+	other_names TEXT NOT NULL,
+	gender TEXT,
+	photo blob,
+	is_active TINYINT NOT NULL DEFAULT 1
+);
+CREATE TABLE song(
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	title TEXT NOT NULL,
+	release_year TINYINT NOT NULL,
+	movie_id NOT NULL REFERENCES movie(id) on update cascade,
+	composer_id NOT NULL REFERENCES composer(id) on update cascade,
+	is_active TINYINT NOT NULL DEFAULT 1
+);
+CREATE TABLE playlist(
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	name TEXT NOT NULL,
+	is_active TINYINT NOT NULL DEFAULT 1
+);
+CREATE TABLE playlist_song(
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	playlist_id NOT NULL REFERENCES playlist(id) on update cascade,
+	song_id NOT NULL REFERENCES song(id) on update cascade,
+);
+COMMIT;
