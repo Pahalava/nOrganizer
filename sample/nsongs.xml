@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="nsongs.xsl"?>
+<nsongs>
+    <movie id="1">
+        <lang code="tam">அன்னக்கிளி</lang>
+        <lang code="eng">Annakili</lang>
+    </movie>
+    <releasedyear>1976</releasedyear>
+    <songs>
+        <song id="1" file="Annakili unna-f.mp3" type="vocal">
+            <title>
+                <lang code="tam">அன்னக்கிளி ஒன்னத் தேடுதே</lang>
+                <lang code="eng">Annakili unna theduthey</lang>
+            </title>
+            <composers>
+                <composer id="1">
+                    <lang code="tam">இளையராஜா</lang>
+                    <lang code="eng">Ilayaraaja</lang>
+                </composer>
+            </composers>
+            <singers>
+               <singer id="1" gender="female">
+                    <lang code="tam">ஜானகி</lang>
+                    <lang code="eng">Janaki</lang>
+                </singer>
+            </singers>
+            <raagam>
+                <lang code="tam">சிந்து பைரவி</lang>
+                <lang code="eng">Sindhu Bhairavi</lang>
+            </raagam>
+            <feels>
+                <feel>
+                    <lang code="tam">தனிமை</lang>
+                    <lang code="eng">Lonely</lang>
+                </feel>
+                <feel>
+                    <lang code="tam">சோகம்</lang>
+                    <lang code="eng">Sad</lang>
+                </feel>
+            </feels>
+            <lyricists>
+                <lyricist>
+                    <lang code="tam">பஞ்சு அருனாச்சலம்</lang>
+                    <lang code="eng">Panchu Arunachalam</lang>
+                </lyricist>
+            </lyricists>
+            <lyrics>
+                <lang code="tam">
+                    அன்னக்கிளி ஒன்னத் தேடுதே
+                    ஆறு மாசம் ஒரு வருஷம் ஆவரம்பூ மேனி வாடுதே
+                    அன்னக்கிளி ஒன்னத் தேடுதே
+                    ஆறு மாசம் ஒரு வருஷம் ஆவரம்பூ மேனி வாடுதே
+
+
+                    நதியோரம் பொறந்தேன் கொடி போல வளர்ந்தேன்
+                    மழையோடும் வெயிலோடும் மனம் போல் நடந்தேன்
+                    நதியோரம் பொறந்தேன் கொடி போல வளர்ந்தேன்
+                    மழையோடும் வெயிலோடும் மனம் போல் நடந்தேன்
+                    உறங்காத உறங்காத கண்களுக்கு ஓலை கொண்டு மையெழுதி
+                    கலங்காதே காத்திருக்கேன் கைபிடிக்க வருவாரோ
+                    அன்னக்கிளி ஒன்னத் தேடுதே
+                    ஆறு மாசம் ஒரு வருஷம் ஆவரம்பூ மேனி வாடுதே
+
+
+                    கனவோடு சில நாள் நெனவோடு சில நாள்
+                    உறவில்லை பிரிவில்லை தனிமை பல நாள்
+                    கனவோடு சில நாள் நெனவோடு சில நாள்
+                    உறவில்லை பிரிவில்லை தனிமை பல நாள்
+                    மழை பேஞ்சா மழை பேஞ்சா வெதவெதச்சி நாத்து நாட்டு கருதறுத்து
+                    போரடிக்கப் போன மாமன் பொழுதிருக்க வருவாரோ
+                    அன்னக்கிளி ஒன்னத் தேடுதே
+                    ஆறு மாசம் ஒரு வருஷம் ஆவரம்பூ மேனி வாடுதே
+
+                    நதியென்றால் அங்கே கரையுண்டு காவல்
+                    கொடியென்றால் அதைக் காக்க மரமே காவல்
+                    புள்ளி போட்ட புள்ளி போட்ட ரவிக்கைக் காரி புளியம்பூ சேலைக்காரி
+                    நெல்லருக்கப் போகையில் யார் கண்ணிரண்டும் காவலடி
+                    அன்னக்கிளி ஒன்னத் தேடுதே
+                    ஆறு மாசம் ஒரு வருஷம் ஆவரம்பூ மேனி வாடுதே
+                </lang>
+            </lyrics>
+        </song>
+        <song id="1" file="Annakili unna-f.mp3" type="vocal">
+            <title>
+                <lang code="tam">அன்னக்கிளி ஒன்னத் தேடுதே</lang>
+                <lang code="eng">Annakili unna theduthey</lang>
+            </title>
+            <composers>
+                <composer id="1">
+                    <lang code="tam">இளையராஜா</lang>
+                    <lang code="eng">Ilayaraaja</lang>
+                </composer>
+            </composers>
+            <singers>
+               <singer id="1" gender="female">
+                    <lang code="tam">ஜானகி</lang>
+                    <lang code="eng">Janaki</lang>
+                </singer>
+            </singers>
+            <raagam>
+                <lang code="tam">சிந்து பைரவி</lang>
+                <lang code="eng">Sindhu Bhairavi</lang>
+            </raagam>
+            <feels>
+                <feel>
+                    <lang code="tam">தனிமை</lang>
+                    <lang code="eng">Lonely</lang>
+                </feel>
+                <feel>
+                    <lang code="tam">சோகம்</lang>
+                    <lang code="eng">Sad</lang>
+                </feel>
+            </feels>
+            <lyricists>
+                <lyricist>
+                    <lang code="tam">பஞ்சு அருனாச்சலம்</lang>
+                    <lang code="eng">Panchu Arunachalam</lang>
+                </lyricist>
+            </lyricists>
+        </song>
+    </songs>
+</nsongs>
